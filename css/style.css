@@ -16,7 +16,11 @@ body {
   color: azure;
   margin: 0;
 }
-
+#logo {
+  margin-top: 15rem;
+  max-width: 90vh;
+  height: auto;
+}
 h1 {
   font-weight: normal;
   font-size: 4rem;
