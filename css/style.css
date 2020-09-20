@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Metamorphous&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/shadowlands.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Metamorphous", cursive;
+  color: azure;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+.container-big {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-small {
+  text-align: center;
+}
+.container-small span {
+  font-size: 1.5rem;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+}
